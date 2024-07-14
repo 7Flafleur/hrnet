@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import CreateEmployeePage from '../pages/CreateEmployee';
+import CreateEmployeePage from '../pages/CreateEmployeePage';
 import EmplyoeeList from '../pages/EmployeeList';
 
 

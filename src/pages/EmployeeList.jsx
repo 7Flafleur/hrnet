@@ -1,11 +1,13 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import Datatable from "../components/Datatable";
 
-export default function EmplyoeeList(){
+export default function EmplyoeeList() {
 
-    return(
+    return (
         <div className="ELbody">
             <h1 className="titre"> Current Employees </h1>
-<Link to="/">Home</Link>
+            <Datatable />
+            <Link to="/">Home</Link>
         </div>
     )
 }
