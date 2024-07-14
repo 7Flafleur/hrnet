@@ -1,3 +1,14 @@
+.DTbody{
+    border: solid yellow 1px;
+}
+
 .datatable{
     border: solid blue 1px;
+    width:100%;
+}
+
+.ontopoftable{
+    border:solid red 1px;
+    display: flex;
+    justify-content: space-between;
 }
