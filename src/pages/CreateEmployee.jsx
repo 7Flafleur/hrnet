@@ -1,14 +1,15 @@
+import { Link } from "react-router-dom"
 
 
+export default function CreateEmployeePage() {
 
-export default function CreateEmployeePage(){
-    <div className="CEbody">
-           <div class="title">
-            <h1>HRnet new</h1>
+    return (
+        <div className="CEbody">
+            <h1>HRNet</h1>
+            <Link to="/employee-list">View Current Employees </Link>
+            <h2> Create New Employee</h2>
         </div>
-
-    </div>
-
+    )
 
 
 }
